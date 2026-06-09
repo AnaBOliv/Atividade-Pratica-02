@@ -1,0 +1,26 @@
+.tema-escuro{
+    background:#0A122A;
+    color:white;
+}
+
+.tema-escuro .card{
+    background:#18233f;
+    color:white;
+}
+
+.tema-escuro button{
+    background:#FFF7E6;
+    color:#0A122A;
+}
+
+.tema-verde .card{
+    border-left:8px solid #2ECC71;
+}
+
+.tema-azul .card{
+    border-left:8px solid #3498DB;
+}
+
+.tema-laranja .card{
+    border-left:8px solid #E67E22;
+}
