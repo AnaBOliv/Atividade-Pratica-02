@@ -1,26 +1,37 @@
 .tema-escuro{
-    background:#0A122A;
+    background:#36255C;
     color:white;
 }
 
-.tema-escuro .card{
-    background:#18233f;
+.tema-escuro .card,
+.tema-escuro .meta-container,
+.tema-escuro .novo-projeto{
+
+    background:#4A3678;
     color:white;
+}
+
+.tema-escuro input,
+.tema-escuro select{
+
+    background:#5b478f;
+    color:white;
+    border:none;
 }
 
 .tema-escuro button{
-    background:#FFF7E6;
-    color:#0A122A;
+    background:#D2C3F6;
+    color:#36255C;
 }
 
 .tema-verde .card{
-    border-left:8px solid #2ECC71;
+    border-left-color:#27AE60;
 }
 
 .tema-azul .card{
-    border-left:8px solid #3498DB;
+    border-left-color:#2980B9;
 }
 
-.tema-laranja .card{
-    border-left:8px solid #E67E22;
+.tema-rosa .card{
+    border-left-color:#C039A0;
 }
