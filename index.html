@@ -35,28 +35,48 @@
 
     </header>
 
-    <main>
+<main>
 
-        <div id="projetos">
+    <section class="meta-container">
 
-            <div class="card">
-                <h2>Reforço Estrutural</h2>
-                <p>Status: <span class="status">Pendente</span></p>
-            </div>
+        <h2>Meta de Projetos</h2>
 
-            <div class="card">
-                <h2>Não Conformidade GMG</h2>
-                <p>Status: <span class="status">Em Andamento</span></p>
-            </div>
+        <input
+            type="number"
+            id="metaInput"
+            min="1"
+            placeholder="Digite sua meta"
+        >
 
-            <div class="card">
-                <h2>Resiliência</h2>
-                <p>Status: <span class="status">Concluído</span></p>
-            </div>
+        <button id="salvarMeta">
+            Salvar Meta
+        </button>
 
-        </div>
+        <p id="resultadoMeta">
+            Defina uma meta.
+        </p>
 
-    </main>
+    </section>
+
+    <section class="novo-projeto">
+
+        <h2>Adicionar Projeto</h2>
+
+        <input
+            type="text"
+            id="novoProjeto"
+            placeholder="Nome do projeto"
+        >
+
+        <button id="adicionarProjeto">
+            Adicionar
+        </button>
+
+    </section>
+
+    <div id="projetos"></div>
+
+</main>
 
     <script src="js/tema.js"></script>
     <script src="js/projetos.js"></script>
